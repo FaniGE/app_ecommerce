@@ -50,7 +50,7 @@ const Products = () => {
 		return (
 			<div className="DivLInicial">  
 				<center>
-					<div className="div2"><img className="initialImg" src="public/cargando.gif"/></div>
+					<div className="div2"><img className="initialImg" src="img/cargando.gif"/></div>
 				</center>
 			</div>);
        
@@ -72,7 +72,7 @@ const Products = () => {
 							{item.image != null && item.image.trim().length > 5 ? (
 								<Card.Img variant="top" src={item.image} width={250} height={230}/> 
 							) : (
-								<Card.Img variant="top" src="./public/not-found.jpg" alt="Not found" width={250} height={230}/> 
+								<Card.Img variant="top" src="./img/not-found.jpg" alt="Not found" width={250} height={230}/> 
 							)}
 							<Card.Body>
 								<Card.Title>{item.product_name}</Card.Title>

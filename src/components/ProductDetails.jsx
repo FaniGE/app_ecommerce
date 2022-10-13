@@ -116,7 +116,7 @@ const ProductDetails = () => {
 								{product.image != null && product.image.trim().length > 5 ? (
 									<img src={product.image} alt=""/> 
 								) : (
-									<img src="./public/not-found.jpg" alt=""/>
+									<img src="./img/not-found.jpg" alt=""/>
 								)}
         
 							</div>
@@ -157,14 +157,14 @@ const ProductDetails = () => {
 
 													{dataUser.length !==0 ? (
 														<button type="button" className="toBuy" onClick={() => addProducts(product._id)}>
-															<img src="./public/carrito.png" className="carritoAdd" alt=""/>
+															<img src="./img/carrito.png" className="carritoAdd" alt=""/>
              COMPRAR
 														</button>
 
            
 													):(
 														<button type="button" className="toBuy" style={{ disabled: 'disabled'}} onClick={() => goToLogin()}>
-															<img src="./public/carrito.png" className="carritoAdd" alt=""/>
+															<img src="./img/carrito.png" className="carritoAdd" alt=""/>
                 COMPRAR
 														</button>
 													)}

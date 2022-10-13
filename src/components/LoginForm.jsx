@@ -64,7 +64,7 @@ const LoginForm = ({ userLogged }) => {
 	return (
 		<>
 			<Form className="loginForm position-absolute top-50 start-50 translate-middle" onSubmit={handleSubmit}>
-				<img src="./public/KiwiCommerce.png" className="loginLogo" alt="KiwiCommerce logo" />
+				<img src="./img/KiwiCommerce.png" className="loginLogo" alt="KiwiCommerce logo" />
 				<h1 className="text-white title-SignIn">Log In</h1>
 				<Form.Group className="mb-2 p-2" controlId="formBasicUser">
 					<Form.Label className="iconLogin"><i className="bi bi-person-fill"></i> Email</Form.Label>
