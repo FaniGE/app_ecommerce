@@ -71,14 +71,14 @@ const NavbarComponent = ({ searchQuery, setSearchQuery }) => {
 			<Navbar className="navbar" expand="lg">
 				<Container fluid>
 					<Navbar.Brand href="/home">
-						<img src="img/KiwiCommerce.png" className="logo" alt="KiwiCommerce logo"/>
-						<img src="img/logo-responsive.png" className="logo-responsive" alt="KiwiCommerce logo responsive"/>
+						<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/KiwiCommerce.png" className="logo" alt="KiwiCommerce logo"/>
+						<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/logo-responsive.png" className="logo-responsive" alt="KiwiCommerce logo responsive"/>
 					</Navbar.Brand>
 					{dataUser.length !==0 ? (
-						<Button variant=""><img src="img/carrito.png" onClick={() => goToShopping()} className="carrito" alt="carrito de compras"/> ({totalPieces})</Button>
+						<Button variant=""><img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/carrito.png" onClick={() => goToShopping()} className="carrito" alt="carrito de compras"/> ({totalPieces})</Button>
 					):(
             
-						<Button variant="" style={{ disabled: 'disabled'}} onClick={() => goToLogin()}><img src="img/carrito.png" className="carrito" alt="carrito de compras"/></Button>
+						<Button variant="" style={{ disabled: 'disabled'}} onClick={() => goToLogin()}><img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/carrito.png" className="carrito" alt="carrito de compras"/></Button>
 					)}
             
 					<Form className="d-flex search-bar" action="/home"
@@ -96,7 +96,7 @@ const NavbarComponent = ({ searchQuery, setSearchQuery }) => {
 							name="s"
 						/>
 						<Button variant="outline-dark" type="submit">
-							<img src="img/pawSearch.png" className="pawSearch" alt="paw-search"/>
+							<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/pawSearch.png" className="pawSearch" alt="paw-search"/>
 						</Button>
 					</Form>
 					<Navbar.Toggle aria-controls="navbarScroll" className="mx-1"/>
@@ -117,7 +117,7 @@ const NavbarComponent = ({ searchQuery, setSearchQuery }) => {
 							{dataUser.length !==0 ? (
 								<Dropdown>
 									<Dropdown.Toggle variant="" id="dropdown-basic" className="mx-2">
-										<img src="img/user.png" alt=""/>
+										<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/user.png" alt=""/>
                 						&nbsp; {dataUser.user.first_name + ' '+dataUser.user.last_name} ({dataUser.user.role})
 									</Dropdown.Toggle>
 									<Dropdown.Menu>

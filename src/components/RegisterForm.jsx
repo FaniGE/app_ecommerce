@@ -60,7 +60,7 @@ const RegisterForm = () => {
   <>
   <div className="formularioRegister">
     <Form className="RegisterForm" onSubmit={handleSubmit}>
-      <img src="img/KiwiCommerce.png" className="RegisterLogo" alt="KiwiCommerce logo" />
+      <img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/KiwiCommerce.png" className="RegisterLogo" alt="KiwiCommerce logo" />
       <h1 className="text-white title-SignIn">Sign Up</h1>
       <Form.Group className="mb-2 p-2" controlId="formBasicUser">
         <Form.Label className="iconRegister"><i className="bi bi-person-fill"></i>First Name</Form.Label>

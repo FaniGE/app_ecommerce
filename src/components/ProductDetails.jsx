@@ -116,7 +116,7 @@ const ProductDetails = () => {
 								{product.image != null && product.image.trim().length > 5 ? (
 									<img src={product.image} alt=""/> 
 								) : (
-									<img src="img/not-found.jpg" alt=""/>
+									<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/not-found.jpg" alt=""/>
 								)}
         
 							</div>
@@ -157,15 +157,15 @@ const ProductDetails = () => {
 
 													{dataUser.length !==0 ? (
 														<button type="button" className="toBuy" onClick={() => addProducts(product._id)}>
-															<img src="img/carrito.png" className="carritoAdd" alt=""/>
-             COMPRAR
+															<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/carrito.png" className="carritoAdd" alt=""/>
+															COMPRAR
 														</button>
 
            
 													):(
 														<button type="button" className="toBuy" style={{ disabled: 'disabled'}} onClick={() => goToLogin()}>
-															<img src="img/carrito.png" className="carritoAdd" alt=""/>
-                COMPRAR
+															<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/carrito.png" className="carritoAdd" alt=""/>
+															COMPRAR
 														</button>
 													)}
 												</div>

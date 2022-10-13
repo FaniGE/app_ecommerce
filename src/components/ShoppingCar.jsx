@@ -126,7 +126,7 @@ useEffect(() => {
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center mb-4">
                       <h5 className="mb-0">Card details</h5>
-                      <img src="img/user.png"
+                      <img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/user.png"
                         className="img-fluid rounded-3" style={{width: "45px"}} alt="Avatar"/>
                     </div>
 

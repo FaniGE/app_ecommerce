@@ -12,7 +12,7 @@ const NotFound = () => {
     
 			<>
 				<div className="notFound404">
-					<img src="img/error404.png" alt="Not Found" className="error404"/>
+					<img src="https://raw.githubusercontent.com/FaniGE/app_ecommerce/main/img/error404.png" alt="Not Found" className="error404"/>
 				</div>
 			</>
 			<footer>
